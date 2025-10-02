@@ -3,8 +3,8 @@ const schede = [
         id: 1,
         nome: "Scheda Full Body",
         esercizi: [
-            { id: 1, nome: "Squat", tempo: 10, descrizione: "Esercizio multiarticolare per allenare quadricipiti, glutei e core.", image: "squat.jpg" },
-            { id: 2, nome: "Panca Piana", tempo: 8, descrizione: "Distensioni su panca orizzontale per il petto, tricipiti e spalle anteriori.", image: "pancaPiana.jpg" },
+            { id: 1, nome: "Squat", tempo: 10, descrizione: "Esercizio multiarticolare per allenare quadricipiti, glutei e core.", image: "squat.gif" },
+            { id: 2, nome: "Panca Piana", tempo: 8, descrizione: "Distensioni su panca orizzontale per il petto, tricipiti e spalle anteriori.", image: "pancaPiana.gif" },
             { id: 3, nome: "Rematore", tempo: 7, descrizione: "Movimento di trazione orizzontale per dorsali e trapezi.", image: "rematore.webp" },
             { id: 4, nome: "Plank", tempo: 5, descrizione: "Isometrico per rafforzare il core e la stabilità del tronco.", image: "plank.gif" }
         ]
