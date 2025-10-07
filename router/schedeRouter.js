@@ -14,13 +14,13 @@ router.get('/:id/esercizi', schedeController.getSchedaEsercizi);
 // show esercizio
 router.get('/:id/esercizi/:idesercizio', schedeController.getSchedaEsercizio);
 
-// // post
-// router.post('/', schedeController.createScheda);
+// post
+router.post('/', schedeController.createScheda);
 
-// // put
-// router.put('/:id', schedeController.updateScheda);
+// put
+router.put('/:id', schedeController.updateScheda);
 
-// // destroy
-// router.delete('/:id', schedeController.deleteScheda);
+// destroy
+router.delete('/:id', schedeController.deleteScheda);
 
 module.exports = router;
