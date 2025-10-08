@@ -78,7 +78,7 @@ function updateScheda(req, res) {
             nome: s.nome,
             tempo: s.tempo,
             descrizione: s.descrizione,
-            immagine : s.immagine
+            image : s.image
         }))
     };
 
