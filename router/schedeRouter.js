@@ -14,6 +14,9 @@ router.get('/:id/esercizi', schedeController.getSchedaEsercizi);
 // show esercizio
 router.get('/:id/esercizi/:idesercizio', schedeController.getSchedaEsercizio);
 
+// delete esercizio
+router.delete('/:id/esercizi/:idesercizio', schedeController.deleteSchedaEsercizio);
+
 // post
 router.post('/', schedeController.createScheda);
 

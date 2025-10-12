@@ -86,6 +86,15 @@ function updateScheda(req, res) {
     res.json(updatedScheda);
 }
 
+function deleteSchedaEsercizio(req, res) {
+    let {id, idesercizio} = req.params;
+    id = parseInt(id);
+    idesercizio = parseInt(idesercizio);
+    const scheda = schede.find(scheda => scheda.id === id);
+    scheda.esercizi = scheda.esercizi.filter(esercizio => esercizio.id !== idesercizio);
+    res.send(scheda);
+}
+
 
 module.exports = {
     getSchede,
@@ -94,6 +103,7 @@ module.exports = {
     getSchedaEsercizi,
     createScheda,
     deleteScheda,
-    updateScheda
+    updateScheda,
+    deleteSchedaEsercizio
 }
 
